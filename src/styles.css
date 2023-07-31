@@ -1,1 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #121212;
+  color: hsl(0, 0%, 91%);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1,h2,h3,h4,p,button {
+  margin: .5em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  min-width: 100px;
+  max-width: 120px;
+  min-height: 25px;
+  background-color: rgb(196, 137, 251);
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3c3c3c;
+  color: rgb(211, 211, 211);
+}
+
+input {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(255,255,255,15%);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.card {
+  background-color: rgba(255,255,255,10%);
+  border-radius: 4px;
+  padding: 2%;
+  min-width: 300px;
+}
+
+.large {
+  min-height: 120px;
+  margin: 20px;
+  max-width: 800px;
+}
+.small {
+  margin: 10px;
+  color:rgb(196, 137, 251);
+}
+
+.filtered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

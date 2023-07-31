@@ -1,28 +1,25 @@
-# EmployeeFilter
+# angular-api
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+This site connects to a dummy api and displays data to the user.
 
-## Development server
+## Task 1
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Returns a list of names for all employees between the ages of 22 and
+28 whose salaries are greater than 1000. The list is sorted in order of employees with the highest salary to the lowest salary.
 
-## Code scaffolding
+## Task 2
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Allows the user to input an employee id. The site displays the employee’s name if it begins with a vowel. If it doesn’t, it displays “Employee’s name does not begin with a vowel”. If an id is entered that does not correspond to a valid employee, it displays “Invalid Employee”.
 
-## Build
+## Also
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The web application is responsive and designed for user experience and my aesthetic preferences. Improper user inputs are also handled with relevant error handling and notices to the user either by conditional rendering or alerts.
 
-## Running unit tests
+### Additional Points of note
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Rather than connecting to the dummy api with http, the site connects via https
+2. The dummy site has a low request limit, so additional conditional renders were made to notify the user if a 429 error is returned. The search feature from Task 2 will return a 'slow down' message when recieving this error. Also, the area from Task 1 will also display this message upon returing that error. 
+3. Server connection errors are also logged to the console. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# employee-filter
+## Deployment: 
+[Hosted Via Netlify](https://main--deluxe-crumble-7df339.netlify.app/)
