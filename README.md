@@ -2,6 +2,8 @@
 
 This site connects to a dummy api and displays data to the user.
 
+![visual](https://github.com/IanZGray/employee-filter/assets/90417534/044f6055-97d9-432f-b62b-67cd72eb89ee)
+
 ## Task 1
 
 Returns a list of names for all employees between the ages of 22 and
