@@ -17,11 +17,11 @@ Allows the user to input an employee id. The site displays the employee’s name
 
 The web application is responsive and designed for user experience and my aesthetic preferences. Improper user inputs are also handled with relevant error handling and notices to the user either by conditional rendering or alerts.
 
+## Deployment: 
+[Hosted Via Netlify](https://64c79fbfcd824909d0d702e7--comforting-druid-fad871.netlify.app/)
+
 ### Additional Points of note
 
 1. Rather than connecting to the dummy api with http, the site connects via https
 2. The dummy site has a low request limit, so additional conditional renders were made to notify the user if a 429 error is returned. The search feature from Task 2 will return a 'slow down' message when recieving this error. Also, the area from Task 1 will also display this message upon returing that error. 
 3. Server connection errors are also logged to the console. 
-
-## Deployment: 
-[Hosted Via Netlify](https://64c79fbfcd824909d0d702e7--comforting-druid-fad871.netlify.app/)
