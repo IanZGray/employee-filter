@@ -24,4 +24,4 @@ The web application is responsive and designed for user experience and my aesthe
 3. Server connection errors are also logged to the console. 
 
 ## Deployment: 
-[Hosted Via Netlify](https://64c79fbfcd824909d0d702e7--comforting-druid-fad871.netlify.app/)
+[Hosted Via Netlify Here](https://64c79fbfcd824909d0d702e7--comforting-druid-fad871.netlify.app/)
