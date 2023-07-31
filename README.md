@@ -1,4 +1,4 @@
-# angular-api
+# Employee Filter
 
 This site connects to a dummy api and displays data to the user.
 
